@@ -7,7 +7,7 @@ module.exports = function(app){
     app.use(bodyParser.urlencoded({extended : true}));
    
     //link to html file
-    app.get('/cpm',function(req,res){
+   /* app.get('/cpm',function(req,res){
         res.render('person');
     });
 
@@ -22,7 +22,7 @@ module.exports = function(app){
     app.get('/getvalues',function(req,res){
         res.render('getdocument');
     });
-
+*/
    app.get('/chandra/prasad/:ID',function(req,res){
         Employee.findById( { _id: req.params.ID},function(err,employeeData){
             if(err) throw err;
