@@ -39,12 +39,12 @@ module.exports = function(app){
 
     });
 
-    app.get('/chandra',function(req,res){
+   /* app.get('/chandra',function(req,res){
         Employee.find({},function(err,employeeData){
             if(err) throw err;
             res.send(employeeData);
         });
-    });
+    });*/
     
     app.post('/chandra/mishra',function(req,res){
         if(req.body.id){
