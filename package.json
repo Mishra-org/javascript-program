@@ -1,14 +1,13 @@
 {
-  "name": "node-todo",
+  "name": "my-first-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "javascript",
   "main": "app.js",
   "scripts": {
-    "start" : "node app.js",
+    "start" : "node app.js"
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
-  "author": "",
+  "author": "\"chandra\"",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
