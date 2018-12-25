@@ -17,4 +17,8 @@
     "mongoose": "^5.4.0",
     "cookie-parser": "^1.4.3"
   }
+  "engines": {
+     "node": "10.14.1",
+     "npm": "6.4.1"
+}
 }
