@@ -13,4 +13,6 @@ app.set('view engine','ejs');
 steupcontroller(app);
 apicontroller(app);
 
-app.listen(port);
+app.listen(port, function() {
+    console.log("App is running on port " + port);
+});
