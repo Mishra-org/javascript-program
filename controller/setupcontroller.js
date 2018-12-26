@@ -1,5 +1,5 @@
 var Employee = require('../models/employeemodels.js');
-
+//seeding document to database
 module.exports = function(app){
     app.get('/chandra',function(req,res){
         var startEmployeeData = [
