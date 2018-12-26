@@ -1,4 +1,4 @@
-/*var Employee = require('../models/employeemodels.js');
+var Employee = require('../models/employeemodels.js');
 
 module.exports = function(app){
     app.get('/chandra',function(req,res){
@@ -28,4 +28,4 @@ module.exports = function(app){
         });
     });
 }
-)*/
+
